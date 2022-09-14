@@ -76,7 +76,7 @@ public class Jogador extends Thread {
 			int tempoEntrega = 5;
 			int tempoGasto = 0;
 			
-			while(tempoGasto > tempoEntrega) {			
+			while(tempoGasto < tempoEntrega) {			
 				pausa(1000);
 				tempoGasto++;
 			}
